@@ -1,0 +1,25 @@
+.image{
+    width: 100%;
+    padding: 1rem;
+    animation:float 3s linear infinite;
+}
+@keyframes float{
+    0%,100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(3rem);
+    }
+}
+.loadercontainer{
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    z-index: 10000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
